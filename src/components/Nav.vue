@@ -36,7 +36,7 @@ import { RouterLink } from 'vue-router'
 <style scoped>
 nav {
     padding: 20px 50px 15px;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(0, 0, 0, 0);
 }
 
 .nav-item {
