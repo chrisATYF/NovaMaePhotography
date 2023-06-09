@@ -134,10 +134,25 @@
 @media(max-width: 679px) {
   .top-bg-img {
     background-size: 100%;
+    background-attachment: scroll;
+  }
+
+  .btm-bg-img {
+    background-size: 100%;
+    background-attachment: scroll;
+  }
+
+  .captionText .img-border {
+    background-color: #11111100;
+    color: #fff;
+    padding: 70px;
+    border-radius: 25px;
+    backdrop-filter: none;
   }
 
   .img-border {
     width: 75%;
+    text-shadow: 2px 2px 4px black;
   }
 
   p {
