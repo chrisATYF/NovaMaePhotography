@@ -2,28 +2,15 @@
   <div class="top-bg-img">
     <div class="captionText">
       <div class="img-border">
-        <p>Nova Mae Photography</p>
+        <h1>Nova Mae Photography</h1>
       </div>
     </div>
   </div>
-  <section>
+  <section class="work-section">
     <h2>My Work</h2>
     <p>Whether it's for seniors pictures, wedding photography, family portraits, or any other kind of picture taking,
       I got you covered
     </p>
-  </section>
-  <section>
-    <div class="img-container">
-      <div class="left-img">
-        <img class="section-img" src="../../images/NMWebMel.jpg" />
-      </div>
-      <div class="center-content">
-        <img class="section-img" src="../../images/NMWebHan.jpg" />
-      </div>
-      <div class="right-img">
-        <img class="section-img" src="../../images/NMWebCan2.jpg" />
-      </div>
-    </div>
   </section>
 </template>
 
@@ -39,41 +26,9 @@
   background-attachment: fixed;
 }
 
-section {
+.work-section {
   text-align: center;
   padding: 50px 80px;
-}
-
-.section-img {
-  position: relative;
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
-  border-radius: 100%;
-  z-index: -2;
-}
-
-.img-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.left-img {
-  left: 0;
-  border-radius: 100%;
-  box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.9);
-}
-
-.center-content {
-  border-radius: 100%;
-  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
-}
-
-.right-img {
-  right: 0;
-  border-radius: 100%;
-  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
 }
 
 .captionText {
@@ -102,5 +57,9 @@ section {
   border-radius: 25px;
 }
 
-@media(max-width:568px) {}
+@media(max-width: 679px) {
+  .img-border {
+    width: 100%;
+  }
+}
 </style>
