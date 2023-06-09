@@ -8,9 +8,9 @@
       </p>
     </div>
     <div class="img-section">
-      <img src="../../images/Hannah 7.jpg" class="first-img">
-      <img src="../../images/Hanna 15.jpg" class="second-img">
-      <img src="../../images/WM 12.jpg" class="third-img">
+      <img src="../../images/Hannah9.jpg" class="first-img">
+      <img src="../../images/Hanna15.jpg" class="second-img">
+      <img src="../../images/WM12.jpg" class="third-img">
     </div>
   </div>
   <section class="about-section">
