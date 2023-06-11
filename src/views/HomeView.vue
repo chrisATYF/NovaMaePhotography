@@ -134,6 +134,7 @@
     object-fit: contain;
     width: 100%;
     padding-bottom: 10px;
+    margin: 0px;
   }
 
   .btm-bg-img {
