@@ -149,10 +149,4 @@
     padding: 25px;
   }
 }
-
-@media(max-width: 594px) {
-  .about {
-    display: block;
-  }
-}
 </style>

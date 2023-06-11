@@ -23,6 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  animation: fade-in 2.5s;
 }
 
 .about-img {
@@ -30,5 +31,27 @@
   width: 250px;
   object-fit: contain;
   border-radius: 50%;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media(max-width: 594px) {
+  .about {
+    display: block;
+  }
+}
+
+@media(max-width: 679px) {
+  p {
+    margin: 5px;
+  }
 }
 </style>
