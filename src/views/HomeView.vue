@@ -27,7 +27,8 @@
 .top-bg-img {
   top: 0;
   background-image: url('../../images/Header.jpg');
-  background-size: auto 50%;
+  background-size: contain;
+  /* background-size: auto 50%; */
 }
 
 .top-bg-img,
