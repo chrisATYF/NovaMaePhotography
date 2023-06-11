@@ -26,16 +26,25 @@
 <style scoped>
 .top-bg-img {
   background-image: url('../../images/Header.jpg');
+  background-size: auto 50%;
+}
+
+.top-bg-img,
+.btm-bg-img {
   background-attachment: fixed;
   width: 100%;
   height: 400px;
-  background-size: auto 50%;
   background-position: center center;
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
   margin: auto;
   padding: 0;
+}
+
+.btm-bg-img {
+  background-image: url('../../images/NMWebMel.jpg');
+  background-size: auto 100%;
 }
 
 .captionText {
@@ -89,24 +98,18 @@
   margin-bottom: 50px;
 }
 
-.btm-bg-img {
-  background-image: url('../../images/NMWebMel.jpg');
-  background-attachment: fixed;
-  width: 100%;
-  height: 400px;
-  background-size: auto 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-align: center;
-  position: relative;
-  margin: auto;
-  padding: 0;
-}
-
 @media(max-width: 679px) {
   .top-bg-img {
     background-size: 100%;
     background-attachment: scroll;
+  }
+
+  .first-img,
+  .second-img,
+  .third-img {
+    object-fit: contain;
+    width: 100%;
+    padding-bottom: 10px;
   }
 
   .btm-bg-img {
@@ -122,6 +125,13 @@
     backdrop-filter: none;
   }
 
+  .img-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 25px;
+  }
+
   .img-border {
     width: 75%;
     text-shadow: 2px 2px 4px black;
@@ -129,24 +139,6 @@
 
   p {
     margin: 5px;
-  }
-}
-
-@media(max-width: 619px) {
-
-  .first-img,
-  .second-img,
-  .third-img {
-    object-fit: contain;
-    width: 100%;
-    padding-bottom: 10px;
-  }
-
-  .img-section {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    padding: 25px;
   }
 }
 </style>

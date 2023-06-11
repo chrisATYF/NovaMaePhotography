@@ -23,9 +23,9 @@ import { RouterLink } from 'vue-router'
                         <li class="nav-item justify-content-end">
                             <RouterLink class="nav-link" to="/about">About</RouterLink>
                         </li>
-                        <!-- <li class="nav-item justify-content-end">
+                        <li class="nav-item justify-content-end">
                             <RouterLink class="nav-link" to="/contact">Contact</RouterLink>
-                        </li> -->
+                        </li>
                     </ul>
                 </div>
             </div>
