@@ -1,7 +1,8 @@
 <template>
   <section class="about-section">
     <h2>About Me</h2>
-    <div class="about">
+    <img src="../../images/AboutMe.png" class="aboutme-img">
+    <!-- <div class="about">
       <p>
         Hi! My name is Genny Johnson. I'm a mother to three beautiful girls and am expecting our first boy in
         September. I've been married to my high school sweetheart for thirteen years this October. I love being
@@ -9,14 +10,20 @@
         visit my website. I look forward to hearing from you!
       </p>
       <img src="../../images/GJPortrait.jpg" class="about-img">
-    </div>
+    </div> -->
   </section>
 </template>
 
 <style scoped>
 .about-section {
   text-align: center;
-  padding: 50px 80px;
+  padding: 0px 40px;
+}
+
+.aboutme-img {
+  width: 100%;
+  height: 100%;
+  animation: fade-in 2.5s;
 }
 
 .about {

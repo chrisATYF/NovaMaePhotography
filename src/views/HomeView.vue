@@ -43,6 +43,11 @@
   padding: 0;
 }
 
+.offering-section {
+  padding: 55px;
+  background-color: rgb(74, 203, 209);
+}
+
 .btm-bg-img {
   background-image: url('../../images/NMWebMel.jpg');
   background-size: contain;
@@ -66,14 +71,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60%;
+  height: 65%;
   width: 60%;
   backdrop-filter: blur(2px);
 }
 
 .captionText .img-border {
-  background-color: #1111118e;
-  color: #fff;
+  background-color: rgba(74, 202, 209, 0.623);
   padding: 70px;
   border-radius: 25px;
 }
@@ -105,7 +109,6 @@
   justify-content: center;
   width: 100%;
   padding: 50px;
-  margin-bottom: 50px;
 }
 
 @media(max-width: 1920px) {
