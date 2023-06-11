@@ -54,13 +54,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 25%;
+  height: 100%;
   width: 100%;
   text-align: center;
   color: #000;
   font-size: 27px;
   letter-spacing: 8px;
-  text-transform: uppercase;
 }
 
 .img-border {
