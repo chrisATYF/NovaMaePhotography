@@ -28,14 +28,13 @@
   top: 0;
   background-image: url('../../images/Header.jpg');
   background-size: contain;
-  /* background-size: auto 50%; */
 }
 
 .top-bg-img,
 .btm-bg-img {
   background-attachment: fixed;
   width: 100%;
-  height: 400px;
+  height: 1000px;
   background-position: center center;
   background-repeat: no-repeat;
   text-align: center;
@@ -47,7 +46,6 @@
 .btm-bg-img {
   background-image: url('../../images/NMWebMel.jpg');
   background-size: contain;
-  /* background-size: auto 100%; */
   bottom: 0;
 }
 
@@ -100,6 +98,14 @@
   width: 100%;
   padding: 50px;
   margin-bottom: 50px;
+}
+
+@media(max-width: 1920px) {
+
+  .top-bg-img,
+  .btm-bg-img {
+    height: 400px;
+  }
 }
 
 @media(max-width: 679px) {
