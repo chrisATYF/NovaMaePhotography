@@ -54,7 +54,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
   height: 100%;
   width: 100%;
   text-align: center;
@@ -64,6 +63,9 @@
 }
 
 .img-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 60%;
   width: 60%;
   backdrop-filter: blur(2px);
