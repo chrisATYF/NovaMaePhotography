@@ -45,7 +45,8 @@
 
 .btm-bg-img {
   background-image: url('../../images/NMWebMel.jpg');
-  background-size: auto 100%;
+  background-size: contain;
+  /* background-size: auto 100%; */
   bottom: 0;
 }
 
