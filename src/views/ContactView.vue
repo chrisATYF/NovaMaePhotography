@@ -1,12 +1,13 @@
 <template>
     <div class="container">
-        <h3 class="heading">Contact Info</h3>
+        <video autoplay loop muted playsinline style="pointer-events: none;" id="bgVid" class="background">
+            <source src="../../images/contact-vid.mp4" type="video/mp4" />
+        </video>
         <div class="section-body">
             <p>
                 This is where some information to contact me is going to go. But it isn't here yet so you
                 can't contact me... haha
             </p>
-            <img src="../../images/contactBG.jpg" class="contact-img">
         </div>
     </div>
 </template>
@@ -31,6 +32,11 @@
     border-radius: 25px;
     box-shadow: 5px 5px 5px 5px darkgray;
     animation: move-up-fade-in 3s;
+}
+
+.background {
+    width: 100%;
+    height: 300px;
 }
 
 @keyframes move-up-fade-in {

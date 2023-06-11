@@ -1,36 +1,48 @@
 <template>
-  <section class="about-section">
-    <h2>About Me</h2>
+  <div class="container">
+    <div class="heading">
+      <h4>Hi everyone! My name is</h4>
+      <h1>Genny Johnson</h1>
+    </div>
     <div class="about">
-      <p>
-        Hi! My name is Genny Johnson. I'm a mother to three beautiful girls and am expecting our first boy in
-        September. I've been married to my high school sweetheart for thirteen years this October. I love being
-        able to capture all the special memories that come with living life. Thank you for taking the time to
-        visit my website. I look forward to hearing from you!
+      <p class="about-msg">
+        I am mother to three beautiful girls and expecting our fourth (a boy!) in September. I've been married to
+        my highschool sweetheart for thirteen years in October. I love being able to capture all of the special
+        memories that come with living life. Thank you for taking the time to visit my website. I look forward to
+        hearing from you!
       </p>
+    </div>
+    <div class="img-section">
       <img src="../../images/GJPortrait.jpg" class="about-img">
     </div>
-  </section>
+  </div>
 </template>
 
 <style scoped>
-.about-section {
+.heading,
+.about-msg {
   text-align: center;
-  padding: 0px 40px;
 }
 
 .about {
-  display: flex;
+  width: 65%;
+  margin: auto;
+}
+
+.about-msg {
+  text-align: center;
+  outline: solid 1px;
+}
+
+.img-section {
+  display: grid;
   align-items: center;
-  justify-content: space-between;
-  animation: fade-in 2.5s;
 }
 
 .about-img {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  margin: auto;
   object-fit: contain;
-  border-radius: 50%;
 }
 
 @keyframes fade-in {
@@ -43,15 +55,7 @@
   }
 }
 
-@media(max-width: 594px) {
-  .about {
-    display: block;
-  }
-}
+@media(max-width: 594px) {}
 
-@media(max-width: 679px) {
-  p {
-    margin: 5px;
-  }
-}
+@media(max-width: 679px) {}
 </style>
