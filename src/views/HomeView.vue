@@ -89,7 +89,7 @@
 .first-img,
 .second-img,
 .third-img {
-  height: 350px;
+  height: 550px;
   border-radius: 25px;
   background-attachment: fixed;
   margin-left: 150px;
@@ -113,6 +113,12 @@
   .top-bg-img,
   .btm-bg-img {
     height: 400px;
+  }
+
+  .first-img,
+  .second-img,
+  .third-img {
+    height: 350px;
   }
 }
 
