@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router'
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <RouterLink class="navbar-brand" to="/"><img src="../../public/JS2.jpg" alt="" width="50" height="50" />
+                <RouterLink class="navbar-brand" to="/"><img src="../../public/JS2.jpg" alt="" width="80" height="80" />
                 </RouterLink>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
