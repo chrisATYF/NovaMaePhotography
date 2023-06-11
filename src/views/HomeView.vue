@@ -25,6 +25,7 @@
 
 <style scoped>
 .top-bg-img {
+  top: 0;
   background-image: url('../../images/Header.jpg');
   background-size: auto 50%;
 }
@@ -45,6 +46,7 @@
 .btm-bg-img {
   background-image: url('../../images/NMWebMel.jpg');
   background-size: auto 100%;
+  bottom: 0;
 }
 
 .captionText {
