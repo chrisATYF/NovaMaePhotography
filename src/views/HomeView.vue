@@ -54,6 +54,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
   height: 100%;
   width: 100%;
   text-align: center;
