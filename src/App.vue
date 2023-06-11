@@ -9,7 +9,21 @@ import Nav from './components/Nav.vue';
   <footer>&copy; Copyright 2023 Nova Mae Photography</footer>
 </template>
 
-<style scoped>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@200&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Manrope', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Manrope', sans-serif;
+}
+
 footer {
   text-align: center;
   padding: 50px;
