@@ -32,6 +32,7 @@
 .about-msg {
   text-align: center;
   outline: solid 1px;
+  border-radius: 2px;
 }
 
 .img-section {
