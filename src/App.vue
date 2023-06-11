@@ -6,7 +6,7 @@ import Nav from './components/Nav.vue';
 <template>
   <Nav></Nav>
   <RouterView />
-  <footer>&copy; Copyright 2023 Nova Mae Photography</footer>
+  <footer style="bottom: 0px;">&copy; Copyright 2023 Nova Mae Photography</footer>
 </template>
 
 <style>
