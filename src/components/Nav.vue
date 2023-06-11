@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router'
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <RouterLink class="navbar-brand" to="/"><img src="../../public/JS2.jpg" alt="" width="40" height="40" />
+                <RouterLink class="navbar-brand" to="/"><img src="../../public/JS2.jpg" alt="" width="50" height="50" />
                 </RouterLink>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,11 +19,11 @@ import { RouterLink } from 'vue-router'
                         </li>
                         <!-- <li class="nav-item">
                             <RouterLink class="nav-link" to="/portfolio">Portfolio</RouterLink>
-                        </li>
+                        </li> -->
                         <li class="nav-item justify-content-end">
                             <RouterLink class="nav-link" to="/about">About</RouterLink>
                         </li>
-                        <li class="nav-item justify-content-end">
+                        <!-- <li class="nav-item justify-content-end">
                             <RouterLink class="nav-link" to="/contact">Contact</RouterLink>
                         </li> -->
                     </ul>
