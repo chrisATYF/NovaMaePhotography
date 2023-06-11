@@ -92,12 +92,17 @@
   height: 350px;
   border-radius: 25px;
   background-attachment: fixed;
+  margin-left: 150px;
+}
+
+.third-img {
+  margin-right: 150px;
 }
 
 .img-section {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   padding: 50px;
   margin-bottom: 50px;
