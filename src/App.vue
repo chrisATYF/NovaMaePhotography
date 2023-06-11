@@ -6,7 +6,6 @@ import Nav from './components/Nav.vue';
 <template>
   <Nav></Nav>
   <RouterView />
-  <footer style="bottom: 0px;">&copy; Copyright 2023 Nova Mae Photography</footer>
 </template>
 
 <style>
@@ -15,20 +14,15 @@ import Nav from './components/Nav.vue';
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: 'Manrope', sans-serif;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 p {
   font-family: 'Manrope', sans-serif;
-}
-
-footer {
-  text-align: center;
-  padding: 50px;
-  width: 100%;
-  height: 100px;
-  bottom: 0;
+  letter-spacing: 2px;
 }
 </style>
