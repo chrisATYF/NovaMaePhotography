@@ -89,7 +89,7 @@
 .first-img,
 .second-img,
 .third-img {
-  height: 250px;
+  height: 350px;
   border-radius: 25px;
   background-attachment: fixed;
 }
