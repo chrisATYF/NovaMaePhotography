@@ -63,6 +63,7 @@
 }
 
 .img-border {
+  height: 60%;
   width: 60%;
   backdrop-filter: blur(2px);
 }
