@@ -1,5 +1,54 @@
+<script setup>
+import { supabase } from '../supabase'
+
+var bannerImg = ""
+var leftImg = ""
+var rightImg = ""
+var centerImg = ""
+var btmImg = ""
+
+const fetchImgs = async () => {
+  const { data: bannerImgData } = supabase
+    .storage
+    .from('images')
+    .getPublicUrl('Header.jpg')
+
+  bannerImg = bannerImgData.publicUrl
+
+  const { data: leftImgData } = supabase
+    .storage
+    .from('images')
+    .getPublicUrl('Hannah9.jpg')
+
+  leftImg = leftImgData.publicUrl
+
+  const { data: centerImgData } = supabase
+    .storage
+    .from('images')
+    .getPublicUrl('Hanna15.jpg')
+
+  centerImg = centerImgData.publicUrl
+
+  const { data: rightImgData } = supabase
+    .storage
+    .from('images')
+    .getPublicUrl('WM12.jpg')
+
+  rightImg = rightImgData.publicUrl
+
+  const { data: BtmImgData } = supabase
+    .storage
+    .from('images')
+    .getPublicUrl('NMWebMel.jpg')
+
+  btmImg = BtmImgData.publicUrl
+}
+
+fetchImgs()
+</script>
+
 <template>
-  <div class="top-bg-img"></div>
+  <div class="top-bg-img" v-bind:style="{ 'background-image': 'url(' + bannerImg + ')' }"></div>
   <div class="offering-section">
     <div class="work">
       <h2 class="work-heading">Services Provided</h2>
@@ -8,13 +57,13 @@
       </p>
     </div>
     <div class="img-section">
-      <img src="../../images/Hannah9.jpg" class="first-img">
-      <img src="../../images/Hanna15.jpg" class="second-img">
-      <img src="../../images/WM12.jpg" class="third-img">
+      <img :src="leftImg" class="first-img">
+      <img :src="centerImg" class="second-img">
+      <img :src="rightImg" class="third-img">
     </div>
   </div>
 
-  <div class="btm-bg-img">
+  <div class="btm-bg-img" v-bind:style="{ 'background-image': 'url(' + btmImg + ')' }">
     <div class="captionText">
       <div class="img-border">
         <h1>Contact me today</h1>
@@ -26,7 +75,6 @@
 <style scoped>
 .top-bg-img {
   top: 0;
-  background-image: url('../../images/Header.jpg');
   background-size: contain;
 }
 
@@ -49,7 +97,6 @@
 }
 
 .btm-bg-img {
-  background-image: url('../../images/NMWebMel.jpg');
   background-size: contain;
   bottom: 0;
 }

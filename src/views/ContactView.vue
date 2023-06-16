@@ -1,7 +1,24 @@
+<script setup>
+import { supabase } from '../supabase';
+
+var contactVid = ""
+
+const fetchVideo = async () => {
+    const { data: contactVidData } = supabase
+        .storage
+        .from('videos')
+        .getPublicUrl('contact-vid.mp4')
+
+    contactVid = contactVidData.publicUrl
+}
+
+fetchVideo()
+</script>
+
 <template>
     <div class="container">
         <video autoplay loop muted playsinline style="pointer-events: none;" id="bgVid" class="background">
-            <source src="../../images/contact-vid.mp4" type="video/mp4" />
+            <source :src="contactVid" type="video/mp4" />
         </video>
         <div class="section-body">
             <p>
