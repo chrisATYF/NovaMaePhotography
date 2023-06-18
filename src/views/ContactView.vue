@@ -22,8 +22,8 @@ fetchVideo()
         </video>
         <div class="section-body">
             <address>
-                <p>Email: <a href="mailto:gmjandkrj@gmail.com">gmjandkrj@gmail.com</a></p>
-                <p>Phone: <a href=“tel:501-680-5817”>(501) 680-5817</a></p>
+                <p>Email: gmjandkrj@gmail.com</p>
+                <p>Phone: (501) 680-5817</p>
             </address>
         </div>
     </div>
