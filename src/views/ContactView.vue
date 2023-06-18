@@ -21,10 +21,10 @@ fetchVideo()
             <source :src="contactVid" type="video/mp4" />
         </video>
         <div class="section-body">
-            <p>
-                This is where some information to contact me is going to go. But it isn't here yet so you
-                can't contact me... haha
-            </p>
+            <address>
+                <p>Email: <a href="mailto:gmjandkrj@gmail.com">gmjandkrj@gmail.com</a></p>
+                <p>Phone: <a href=“tel:501-680-5817”>(501) 680-5817</a></p>
+            </address>
         </div>
     </div>
 </template>
