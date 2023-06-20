@@ -1,5 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+
+
 </script>
 
 <template>
@@ -15,11 +17,12 @@ import { RouterLink } from 'vue-router'
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <RouterLink class="nav-link active" aria-current="page" to="/">Home</RouterLink>
+                            <RouterLink class="nav-link" aria-current="page" to="/">Home
+                            </RouterLink>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <RouterLink class="nav-link" to="/portfolio">Portfolio</RouterLink>
-                        </li>
+                        </li> -->
                         <li class="nav-item justify-content-end">
                             <RouterLink class="nav-link" to="/about">About</RouterLink>
                         </li>
