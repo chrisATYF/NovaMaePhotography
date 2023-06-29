@@ -1,7 +1,21 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import { ref, onMounted } from 'vue';
 
+onMounted(() => {
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            const navbarCollapse = document.querySelector('.navbar-collapse');
+            const isNavbarVisible = window.getComputedStyle(navbarCollapse).getPropertyValue('display') !== 'none';
+
+            if (isNavbarVisible) {
+                navbarCollapse.classList.remove('show');
+            }
+        });
+    });
+});
 </script>
 
 <template>
