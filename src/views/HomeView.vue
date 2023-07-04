@@ -172,7 +172,7 @@ fetchImgs()
 @media(max-width: 768px) {
   .top-bg-img {
     background-size: 100%;
-    background-attachment: none;
+    background-attachment: fixed;
   }
 
   .first-img,
@@ -185,7 +185,7 @@ fetchImgs()
 
   .btm-bg-img {
     background-size: 100%;
-    background-attachment: none;
+    background-attachment: fixed;
   }
 
   .captionText .img-border {
