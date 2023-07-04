@@ -145,8 +145,6 @@ fetchImgs()
   background-attachment: fixed;
 }
 
-.third-img {}
-
 .img-section {
   position: relative;
   display: flex;
@@ -172,7 +170,7 @@ fetchImgs()
 @media(max-width: 768px) {
   .top-bg-img {
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 
   .first-img,
@@ -181,11 +179,12 @@ fetchImgs()
     width: 100%;
     padding-bottom: 10px;
     margin: 0px;
+    object-fit: contain;
   }
 
   .btm-bg-img {
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 
   .captionText .img-border {
@@ -200,7 +199,7 @@ fetchImgs()
     display: flex;
     flex-direction: column;
     margin: 0px;
-    padding: 25px;
+    padding: 25px 0px;
   }
 
   .img-border {
