@@ -143,26 +143,23 @@ fetchImgs()
   height: 550px;
   border-radius: 25px;
   background-attachment: fixed;
-  margin-left: 150px;
 }
 
-.third-img {
-  margin-right: 150px;
-}
+.third-img {}
 
 .img-section {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
-  padding: 50px;
+  padding: 50px 0px;
 }
 
 @media(max-width: 1920px) {
 
   .top-bg-img,
   .btm-bg-img {
-    height: 400px;
+    height: 500px;
   }
 
   .first-img,
@@ -172,25 +169,23 @@ fetchImgs()
   }
 }
 
-@media(max-width: 679px) {
+@media(max-width: 768px) {
   .top-bg-img {
     background-size: 100%;
-    background-attachment: scroll;
+    background-attachment: none;
   }
 
   .first-img,
   .second-img,
   .third-img {
-    object-fit: contain;
     width: 100%;
     padding-bottom: 10px;
     margin: 0px;
-    justify-content: center;
   }
 
   .btm-bg-img {
     background-size: 100%;
-    background-attachment: scroll;
+    background-attachment: none;
   }
 
   .captionText .img-border {
